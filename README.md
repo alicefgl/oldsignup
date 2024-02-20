@@ -98,9 +98,9 @@ public IActionResult Index()
 ```
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 UPDATE CONSEGNA:
-- Modificare il progetto SignupSession precedente in modo che utilizzi un tema Bootstrap preso da qui: https://bootswatch.com/
-- Se volete integrare boostrap nella sua vesione cdn, potete prtelevare il link da qui: https://getbootstrap.com/
-- Qui trovate alcune istruzioni... https://www.youtube.com/watch?v=bUgFQeUaze0&ab_channel=DigitalTechJoint
+- Modificare il progetto SignupSession precedente in modo che utilizzi un tema Bootstrap preso da [qui](https://bootswatch.com/)
+- Se volete integrare boostrap nella sua vesione cdn, potete prtelevare il link da [qui](https://getbootstrap.com/)
+- [Qui](https://www.youtube.com/watch?v=bUgFQeUaze0&ab_channel=DigitalTechJoint) trovate alcune istruzioni...
 
 PROCEDIMENTO:
 Dopo aver installato il tema (Darkly -> https://bootswatch.com/darkly/) ho salvato il file bootstrap.css all'interno della cartella wwwroot, rinominandolo come site.css (in modo che venisse riconosciuto dal programma).
