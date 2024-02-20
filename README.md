@@ -103,7 +103,7 @@ UPDATE CONSEGNA:
 - [Qui](https://www.youtube.com/watch?v=bUgFQeUaze0&ab_channel=DigitalTechJoint) trovate alcune istruzioni...
 
 PROCEDIMENTO:
-Dopo aver installato il tema (Darkly -> https://bootswatch.com/darkly/) ho salvato il file bootstrap.css all'interno della cartella wwwroot, rinominandolo come site.css (in modo che venisse riconosciuto dal programma).
+Dopo aver installato il tema ([Darkly](https://bootswatch.com/darkly/)) ho salvato il file bootstrap.css all'interno della cartella wwwroot, rinominandolo come site.css (in modo che venisse riconosciuto dal programma).
 Ho poi integrato bootstrap con la sua versione CDN copiando il link fornito dalla consegna all'interno di _Layout.cshtml, in questo modo:
 ```
     <link rel="stylesheet" href="~/css/site.css/"/>
