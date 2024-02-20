@@ -1,0 +1,27 @@
+@model dbContext;
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Riepilogo ordine</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Quantità</th>
+                <th>Prodotti</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+            foreach ( Prodotto item in Model.Prodotti)
+            {
+                <tr>
+                    <td>@item.quantita</td>
+                    <td>@item._NomeP</td>
+                </tr>
+            }
+            }
+        </tbody>
+    </table>
+</div>
